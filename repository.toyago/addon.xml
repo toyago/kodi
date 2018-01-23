@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.toyago" name="ToyaGO Kodi Add-ons Repository" version="1.0.0" provider-name="piotrekcrash">
+    <extension point="xbmc.addon.repository" name="ToyaGO Kodi Add-ons Repository">
+        <dir>
+            <info compressed="false">https://github.com/toyago/kodi/raw/master/addons.xml</info>
+            <checksum>https://github.com/toyago/kodi/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/toyago/zip/raw/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ToyaGO Kodi Repository</summary>
+        <summary lang="pl">Repozytorium ToyaGo</summary>
+        <summary lang="en">ToyaGo repository</summary>
+        <description>Unofficial, ToyaGo repository</description>
+        <disclaimer lang="pl">Nieoficjalny addon serwisu ToyaGO</disclaimer>
+        <platform>all</platform>
+        <website>https://github.com/toyago/kodi</website>
+        <email></email>
+    </extension>
+</addon>
