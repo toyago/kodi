@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="plugin.video.toyago"
+version="1.0.0"
+name="ToyaGO"
+provider-name="piotrekcrash">
+<requires>
+  <import addon="xbmc.python" version="2.24.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">ToyaGO Kodi Video Plugin</summary>
+  <description lang="en">Addon daje możliwość oglądania kanałów dostępnych w usłudze ToyaGo zalogowanemu użytkownikowi zgodnie z wykupionym pakietem</description>
+  <disclaimer lang="en">Plugin ToyaGO dla Kodi</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+    <screenshot>resources\screenshot-01.png</screenshot>
+    <screenshot>resources\screenshot-02.png</screenshot>
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
+
+<addon id="repository.toyago" name="ToyaGO Kodi Add-ons Repository" version="1.0.0" provider-name="piotrekcrash">
+    <extension point="xbmc.addon.repository" name="ToyaGO Kodi Add-ons Repository">
+        <dir>
+            <info compressed="false">https://github.com/toyago/kodi/raw/master/addons.xml</info>
+            <checksum>https://github.com/toyago/kodi/raw/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/toyago/zip/raw/master/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>ToyaGO Kodi Repository</summary>
+        <summary lang="pl">Repozytorium ToyaGo</summary>
+        <summary lang="en">ToyaGo repository</summary>
+        <description>Unofficial, ToyaGo repository</description>
+        <disclaimer lang="pl">Nieoficjalny addon serwisu ToyaGO</disclaimer>
+        <platform>all</platform>
+        <website>https://github.com/toyago/kodi</website>
+        <email></email>
+    </extension>
+</addon>
+</addons>
