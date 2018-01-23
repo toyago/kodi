@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.toyago"
-version="1.0.2"
+version="1.0.3"
 name="ToyaGO"
 provider-name="piotrekcrash">
 <requires>
@@ -24,11 +24,11 @@ provider-name="piotrekcrash">
 </extension>
 </addon>
 
-<addon id="repository.toyago" name="ToyaGO Kodi Add-ons Repository" version="1.0.0" provider-name="piotrekcrash">
+<addon id="repository.toyago" name="ToyaGO Kodi Add-ons Repository" version="1.0.1" provider-name="piotrekcrash">
     <extension point="xbmc.addon.repository" name="ToyaGO Kodi Add-ons Repository">
         <dir>
-            <info compressed="false">https://github.com/toyago/kodi/raw/master/addons.xml</info>
-            <checksum>https://github.com/toyago/kodi/raw/master/addons.xml.md5</checksum>
+            <info compressed="false">https://raw.githubusercontent.com/toyago/kodi/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/toyago/kodi/master/addons.xml.md5</checksum>
             <datadir zip="true">https://github.com/toyago/zip/raw/master/</datadir>
         </dir>
     </extension>
