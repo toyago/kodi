@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="plugin.video.toyago"
-version="1.0.3"
-name="ToyaGO"
-provider-name="piotrekcrash">
+<addon id="plugin.video.toyago" version="1.0.3" name="ToyaGO" provider-name="piotrekcrash">
 <requires>
   <import addon="xbmc.python" version="2.24.0"/>
 </requires>
