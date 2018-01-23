@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 <addon id="plugin.video.toyago"
-version="1.0.0"
+version="1.0.2"
 name="ToyaGO"
 provider-name="piotrekcrash">
 <requires>
