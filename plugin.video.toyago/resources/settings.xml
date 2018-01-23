@@ -14,7 +14,7 @@
 	</category>-->
 	<category label="ToyaGO">
 		<setting id="toya_go_sort" type="enum" values="Default|Alphabetical" label="Sorting" default="0"/>
-		<setting id="toya_go_user" type="text" default="" label="Email"/>
+		<setting id="toya_go_user" type="text" default="" label="Email (xyz@toya.net.pl)"/>
 		<setting id="toya_go_pass" type="text" default="" label="Password"/>
 		<setting id="toya_go_device" type="text" default="" label="DeviceID (optional)"/>
 	</category>
