@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.toyago" name="ToyaGO Kodi Add-ons Repository" version="1.0.1" provider-name="piotrekcrash">
+<addon id="repository.toyago" name="ToyaGO Kodi Add-ons Repository" version="1.0.4" provider-name="piotrekcrash">
     <extension point="xbmc.addon.repository" name="ToyaGO Kodi Add-ons Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/toyago/kodi/master/addons.xml</info>
